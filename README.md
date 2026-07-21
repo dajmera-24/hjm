@@ -22,7 +22,7 @@ where $f(t, T)$ is the instantaneous forward rate for maturity $T > t$ that can 
 
 ## The Presentation
 
-The talk is aimed at an audience with a background in basic calculus and probability, and introduces the remaining machinery as it is needed. Its rough ordering of topics is:
+The talk is aimed at an audience with a background in basic calculus and probability, and introduces the remaining machinery asP it is needed. Its rough ordering of topics is:
 
 - **Measures**: assigning size and likelihood to events on the coin-toss space $\Omega = \{-1, 1\}^{\mathbb{N}}$.
 - **Sigma-algebras, random variables, and information**: probability spaces $(\Omega, \mathcal{F}, \mathbb{P})$, and filtrations $\mathcal{F}(t)$ as a model of "what we know so far."
@@ -52,7 +52,7 @@ The notebook proceeds in the following stages:
 3. **Enforce no arbitrage.** Under the risk-neutral measure, the one-factor HJM drift is fully determined by the volatility:
 
 $$
-    \alpha(t, T) = \sigma(t, T)\,\sigma^{*}(t, T), \qquad \sigma^{*}(t, T) = \int_t^T \sigma(t, u)\,du.
+    \alpha(t, T) = \sigma(t, T)\,\sigma^{\ast}(t, T), \qquad \sigma^{\ast}(t, T) = \int_t^T \sigma(t, u)\,du.
 $$
 
    So once $\sigma$ is estimated, no further calibration is required.
